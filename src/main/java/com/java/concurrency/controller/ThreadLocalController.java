@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/threadLocal")
 @Slf4j
 public class ThreadLocalController {
-
     @RequestMapping("/testing")
     public Long test() {
         return RequestHolder.getId();
